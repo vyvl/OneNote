@@ -19,7 +19,7 @@ var onenote = function() {
 document.addEventListener('keydown', function(e) {
   // pressed ctrl+alt+o
   if (e.keyCode == 79 && !e.shiftKey && e.ctrlKey && e.altKey && !e.metaKey) {
-	  console.log("Clipper Hotkey")
+	  console.log("Clipper Hotkey Pressed")
   onenote(); // Open OneNote Clipper.
   }
 }, false);
